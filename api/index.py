@@ -58,7 +58,7 @@ def handle_message(event):
         working_status = False
         line_bot_api.reply_message(
             event.reply_token,
-            TextSendMessage(text="今台電子"))
+            TextSendMessage(text="今台電子0224"))
         return
     
     if working_status:
